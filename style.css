@@ -1,0 +1,20 @@
+body {
+    background-color: #121214;
+}
+header {
+    background-color: #202024;
+}
+.card {
+    width: 18rem;
+}
+.btn-primary {
+    background-color: #2A2441;
+    border: none;
+}
+
+.bg-footer {
+    background-color: #8257E6;
+}
+.icone:hover {
+    color: #fff;
+}
