@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-light: #ECE9FD;
+    font-size: 62.5%;
+}
+body {
+    background: var(--bg-light, #ECE9FD);
+    font-family: 'Epilogue', sans-serif;
+}
+main {
+    padding: 6rem 2.3rem;
+    max-width: 38rem;
+    margin: 0 auto;
+}
+main a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin: 3.2rem 0 7.2rem 0;
+}
+main a:hover {
+    color: #251e47;
+    color: #ECE9FD;
+}
+h1 {
+    font-family: Epilogue;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 4.8rem;
+
+    margin-bottom: 1.5rem;
+}
+.p1 {
+    color: var(--text-dark-accent, #7158EF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    margin-bottom: 2rem;
+}
+.p2 {
+    color: var(--text-dark-gray, rgba(10, 0, 57, 0.64));
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    font-family: Epilogue;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.2rem; 
+
+    margin-bottom: 3.2rem;
+}
+.link {
+    color: var(--text-dark, #090039);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.2rem; 
+    background-color: #7158EF;
+    padding: 1rem;
+    border-radius: 8px;
+
+}
+ul {
+    margin-top: 7.2rem;
+}
+ul li {
+    list-style: none;
+    color: var(--text-dark, #090039);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    font-family: Epilogue;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -2px;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+
+    max-width: 25.8rem;
+}
+ul li span {
+    color: var(--text-dark, #090039);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 7.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 8rem;
+    letter-spacing: -2px;
+    width: 20px;
+
+    margin-right: 3.8rem;
+
+}
+
+@media screen and (min-width: 578px) {
+    body {
+        padding: 8rem;
+    }
+    main {
+        max-width: 1080px;
+        display: flex;
+        justify-content: space-around;
+        gap: 10rem;
+    }
+    main .container {
+        max-width: 48rem;
+    }
+    ul li {
+        max-width: 100%;
+    }
+}

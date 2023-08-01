@@ -11,10 +11,23 @@ header {
     background-color: #2A2441;
     border: none;
 }
+.btn-primary:hover {
+    background-color:  #1e1a2e;
+}
 
 .bg-footer {
     background-color: #8257E6;
 }
 .icone:hover {
     color: #fff;
+}
+
+.container-desafios {
+    background-color: #202024;
+}
+.btn-secondary {
+    background-color: #19191C;
+}
+.btn-secondary:hover {
+    background-color: #151516;
 }
