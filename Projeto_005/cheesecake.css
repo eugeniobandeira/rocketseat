@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    color: #A54328;
+}
+main {
+    box-sizing: content-box;
+    max-width: 32rem;
+    margin-inline: auto;
+
+    padding: 5.6rem 4rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+img {
+    width: 100%;
+    margin-block: 3.2rem;
+}
+
+h1, h2 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+}
+h2 {
+    margin-bottom: 3.2rem;
+}
+p, li, strong {
+    font: 1.4rem;
+    line-height: 1.8rem;
+}
+ul, ol {
+    padding-left: 2.4rem;
+}
+ul {
+    padding-left: 2.4rem;
+}
+.receita {
+    margin-top: 3.2rem;
+}
+button {
+    background-color: #A54328;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    
+    margin-top: 3.2rem;
+}
+button:hover {
+    background-color: #a3381a;
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        background: url('./assets/img/bg.png'), lightgray 50% / cover no-repeat;
+    }
+    main {
+        min-width: 1000px;
+    }
+    img {
+        width: 50%;
+    }
+    .pagina {
+        display: flex;
+        width: fit-content;
+        gap: 8rem;
+    }
+    .bolo {
+        width: fit-content;
+    }
+    .receita {
+        width: fit-content;
+    }
+}
